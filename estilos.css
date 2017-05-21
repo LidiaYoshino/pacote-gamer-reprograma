@@ -1,0 +1,427 @@
+/* GERAL */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-size: 3vh;
+		font-family: 'Roboto', Verdana, sans-serif;
+	}
+
+	.allSections {
+		height: 100vh;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	h4 {
+		margin-bottom: 1vh;
+		color: #0A0;
+	}
+/* FIM GERAL */
+	
+/* NAV */
+	.menu {
+		background-color: #FAF0DA;
+		height: 48vh;
+		width: 6%;
+		position: fixed;
+		top: 22vh;
+		left: 94%;
+		text-align: right;
+		z-index: 5;
+		border-radius: 5px;
+	}
+
+	.menu ul {
+		list-style: none;
+	}
+
+	.menu ul li:first-child {
+		margin-top: 0;
+	}
+
+	.botaoMenu {
+		background-color: #e3dac6;
+		height: 8vh;
+		width: 8vh;
+		margin: auto;
+		margin-top: 1.6vh;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.botaoMenu:hover {
+		background-color: rgba(170, 170, 170, 0.7);
+	}
+
+	.navInicio {
+		background-image: url("imagens/menuInicio.png");
+		background-size: cover;
+		border-radius: 5px;
+	}
+
+	.navVideo {
+		background-image: url("imagens/menuVideo.png");
+		background-size: cover;
+		border-radius: 5px;
+	}
+
+	.navPessoas {
+		background-image: url("imagens/menuEquipe.png");
+		background-size: cover;
+		border-radius: 5px;
+	}
+
+	.navFeedback {
+		background-image: url("imagens/menuFeedback.png");
+		background-size: cover;
+		border-radius: 5px;
+	}
+
+	.botaoHash {
+		background-color: #e3dac6;
+		height: 4vh;
+		margin-top: 1.6vh;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	.botaoHash:hover {
+		background-color: rgba(170, 170, 170, 0.7);
+	}
+
+	.botaoSome {
+		visibility: hidden;
+	}
+/* FIM NAV */
+	
+/* HEADER */
+	.secHeader {
+		background-color: #000;
+		color: #888;
+		text-align: justify;
+		line-height: 1.5;
+		position: relative;
+		z-index: -1;
+		background-image: linear-gradient(to bottom, #000, #337400);
+	}
+
+	.pacoteGamer {
+		position: absolute;
+		width: 76%;
+		top: 5vh;
+		left: 12%;
+	}
+
+	.logo {
+		position: absolute;
+		width: 50%;
+		top: 20vh;
+		left: 25%;
+	}
+
+	.descricao {
+		background-color: #DDD;
+		font-size: 1rem;
+		width: 22%;
+		padding: 2%;
+		float: left;
+		margin-top: 25vh;
+		margin-left: 3%;
+		border-radius: 15px;
+	}
+
+	.primeiroPost {
+		background-color: #DDD;
+		font-size: 1rem;
+		width: 17%;
+		padding: 2%;
+		float: right;
+		margin-top: 63vh;
+		margin-right: 9%;
+		border-radius: 15px;
+	}
+/* FIM HEADER */
+	
+/* VIDEO */
+	.secCinema {
+		background-color: #050;
+		color: #888;
+		text-align: center;
+		line-height: 1.5;
+		background-image: linear-gradient(to bottom, #337400, #432);
+	}
+
+	.caixaVideo {
+		width: 60%;
+		margin: auto;
+		padding-top: 10vh;
+	}
+
+	.video {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+
+	.video iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.textoVideo {
+		background-color: #DDD;
+		width: 70%;
+		margin: 4vh 13%;
+		padding: 2%;
+		text-align: justify;
+		font-size: .7rem;
+		border-radius: 15px;
+	}
+/* FIM VIDEO */
+	
+/* CHARACTER SELECT */
+	.secPessoas {
+		background-color: #000;
+		padding-top: 5vh;
+		position: relative;
+		background-image: linear-gradient(to bottom, #432, #785a3d);
+	}
+
+	.titulo {
+		background-color: #EEEDDF;
+		color: #000;
+		width: 75%;
+		padding: 2%;
+		padding-left: 5%;
+		border-radius: 0 15px 15px 0;
+	}
+
+	.ficha {
+		background-color: #98724c;
+		width: 50%;
+		height: 60vh;
+		margin: 5vh 2% 5vh 5vh;
+		padding: 2%;
+		display: inline-block;
+		border-radius: 15px;
+	}
+
+	.nomeFicha {
+		background-color: #FAF0DA;
+		width: 93%;
+		padding: 3.5%;
+		height: 7%;
+		margin: auto;
+		border-radius: 5px;
+	}
+
+	.textoFicha {
+		background-color: #FAF0DA;
+		width: 46%;
+		height: 71%;
+		margin-top: 2%;
+		float: right;
+		padding: 3%;
+		text-align: left;
+		border-radius: 5px;
+	}
+
+	.imgFicha {
+		background-color: #FFF;
+		width: 46%;
+		height: 80%;
+		margin-top: 2%;
+		float: left;
+		border-radius: 5px;
+	}
+
+	/* CLASSES PARA TROCA DE imgFicha */
+		.fichaFabio {
+			background-color: #8eb36b;
+			background-image: url("imagens/fichaFabio.png");
+			background-size: cover;
+			border-radius: 5px;
+		}
+
+		.fichaLids {
+			background-color: #9e6bb3;
+			background-image: url("imagens/fichaLids.png");
+			background-size: cover;
+			border-radius: 5px;
+		}
+
+		.fichaRafa {
+			background-color: #b3b3b3;
+			background-image: url("imagens/fichaRafa.png");
+			background-size: cover;
+			border-radius: 5px;
+		}
+
+		.fichaZero {
+			background-color: #6b78b3;
+			background-image: url("imagens/fichaZero.png");
+			background-size: cover;
+			border-radius: 5px;
+		}
+
+		.fichaBlank {
+			background-color: #FFF;
+			background-image: url("imagens/fichaBlank.png");
+			background-size: cover;
+			border-radius: 5px;
+		}
+	/* FIM CLASSES PARA TROCA DE imgFicha */
+
+	/* TABELA DE ESCOLHA DE PERSONAGEM */
+		.outrosChars {
+			background-color: #b38f6c;
+			width: 30%;
+			height: 30vh;
+			margin: 0;
+			padding: 2%;
+			position: absolute;
+			top: 22.5vh;
+			display: inline-block;
+			border-radius: 15px;
+		}
+
+		.char {
+			background-color: #FFF;
+			width: 23.8%;
+			height: 49%;
+			display: inline-block;
+			border-radius: 5px;
+		}
+
+		.fabio {
+			background-color: #8eb36b;
+			background-image: url("imagens/miniFichaFabio.png");
+			background-size: cover;
+		}
+
+		.lids {
+			background-color: #9e6bb3;
+			background-image: url("imagens/miniFichaLids.png");
+			background-size: cover;
+		}
+
+		.rafa {
+			background-color: #b3b3b3;
+			background-image: url("imagens/miniFichaRafa.png");
+			background-size: cover;
+		}
+
+		.zero {
+			background-color: #6b78b3;
+			background-image: url("imagens/miniFichaZero.png");
+			background-size: cover;
+		}
+
+		.blank {
+			background-color: #FFF;
+			background-image: url("imagens/miniFichaBlank.png");
+			background-size: cover;
+		}
+	/* FIM TABELA DE ESCOLHA DE PERSONAGEM */
+
+/* FIM CHARACTER SELECT */
+	
+/* FEEDBACK */
+	.secFeedback {
+		background-color: #9D9;
+		background-image: linear-gradient(to bottom, #785a3d, #ffe4ca);
+		padding-top: 15vh;
+	}
+
+	.logoLove {
+		width: 40%;
+		float: left;
+		margin-left: 5%;
+		margin-top: -3vh;
+	}
+
+	.form {
+		background-color: #FAF0DA;
+		height: 70vh;
+		width: 40%;
+		margin-right: 10%;
+		border-radius: 15px;
+		display: inline-block;
+		float: right;
+	}
+
+	.form h2 {
+		background-color: #b38f6c;
+		padding: 3%;
+		padding-left: 5%;
+		border-radius: 15px 15px 0 0;
+	}
+
+	.campoForm {
+		padding: 5%;
+		padding-bottom: 0;
+	}
+
+	.cont {
+		font-size: 1rem;
+		padding: 1%;
+		width: 80%;
+		float: right;
+		margin-top: -0.5vh;
+		border-radius: 5px;
+	}
+
+	.msg {
+		font-size: 1rem;
+		margin: 5%;
+		padding: 1.5%;
+		height: 20vh;
+		width: 87%;
+		border-radius: 5px;
+	}
+
+	.checkbox {
+		font-size: 1rem;
+		padding-left: 5%;
+		margin-top: -1%;
+	}
+
+	.textoCaixa {
+		padding-left: 2%;
+	}
+
+	.submit { /* colocar outro botao */
+		margin-top: 7%;
+		margin-left: 45%;
+	}
+/* FIM FEEDBACK */
+
+/* FOOTER */
+	.social {
+		background-color: #fff1cd;
+		height: 6vw;
+		width: 40vh;
+		position: fixed;
+		top: 89.4vh;
+		padding-left: 5%;
+		border-radius: 0 15px 15px 0;
+	}
+
+	.social ul li {
+		display: inline;
+	}
+
+	.iconeSocial {
+		height: 8vh;
+		margin: 3.5%;
+	}
+/* FIM FOOTER */

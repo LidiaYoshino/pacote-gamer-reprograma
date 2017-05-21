@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Pacote Gamer</title>
+		<meta charset="UTF-8">
+		<link href="estilos.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<nav class="menu" id="menu">
+			
+			<ul>
+				<li class="botaoHash" id="botaoSobe">^</li>	
+				<li><a href="#header" title="Volta para o começo"><div class="botaoMenu navInicio"></div></a></li>
+				<li><a href="#cinema" title="Veja um dos nossos vídeos"><div class="botaoMenu navVideo"></div></a></li>
+				<li><a href="#pessoas" title="Conheça a equipe"><div class="botaoMenu navPessoas"></div></a></li>
+				<li><a href="#feedback" title="Converse com a gente"><div class="botaoMenu navFeedback"></div></a></li>
+				<li class="botaoHash" id="botaoDesce">v</li>
+			</ul>
+			
+		</nav>
+
+		<header class="allSections secHeader" id="header">
+			<img class="pacoteGamer" src="imagens/pacoteGamerescrito.png" alt="Pacote Gamer escrito com pixels <3">
+			<img class="logo" src="imagens/logoPacoteGamer.png" alt="Logo da Pacote Gamer">
+			<div class="descricao" id="descricao">
+				<h4>Sobre a Pacote Gamer</h4>
+				<p>
+					A Pacote Gamer é um canal de YouTube com o objetivo de promover discussões e fornecer informações sobre videogames com um olhar mais analítico, mas sempre de forma descontraída e informal.
+				</p>
+			</div>
+			<div class="primeiroPost" id="primeiroPost">
+				<h4>Pacote Gamer voltou!</h4>
+				<p>
+					Seu Pacote Gamer voltou! Receba novos vídeos sobre games toda semana! Com conversas descontraídas e muito bom humor, colocamos video games em discussão.
+				</p>
+			</div>
+		</header>
+
+		<section class="allSections secCinema" id="cinema">
+			<div class="caixaVideo">
+				<div class="video" id="video">
+					<iframe width="853" height="480" src="https://www.youtube.com/embed/esiZXmypu5k" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="textoVideo" id="textoVideo">
+				<p>
+					No Expansão dessa semana, conversamos sobre a aclamada thatgamecompany, sua história, filosofia jogos lançados e muito mais.
+				</p>
+				<p>
+					Links interessantes sobre thatgamecompany:
+					Site oficial: http://thatgamecompany.com/ 
+					MOCAtv - Art in Video Games: https://goo.gl/g0xFc2 
+					Extra Credits - Hero's Journey part 1: https://goo.gl/qMYyMm
+					Extra Credits - Hero's Journey part 2: https://goo.gl/OEjQ2Y
+				</p>
+			</div>
+		</section>
+
+		<section class="allSections secPessoas" id="pessoas">
+			<h2 class="titulo">Quem faz parte do pacote?</h2>
+			<div class="ficha" id="ficha">
+				<h3 class="nomeFicha" id="nomeFicha"></h3>
+				<div class="imgFicha fichaBlank" id="imgFicha"></div>
+				<div class="textoFicha" id="textoFicha"></div>
+			</div>
+			<div class="outrosChars">
+				<div class="char fabio" id="fabio"></div>
+				<div class="char lids" id="lids"></div>
+				<div class="char rafa" id="rafa"></div>
+				<div class="char zero" id="zero"></div>
+				<div class="char blank" id="blank1"></div>
+				<div class="char blank" id="blank2"></div>
+				<div class="char blank" id="blank3"></div>
+				<div class="char blank" id="blank4"></div>
+			</div>
+		</section>
+		
+		<section class="allSections secFeedback" id="feedback">
+			<div class="imgFeedback">
+				<img class="logoLove" src="imagens/logoLove.gif" alt="Logo da Pacote Gamer <3">
+			</div>
+			<div class="form" id="form">
+				<h2>Deixe uma mensagem</h2>
+				<form class="formulario">
+					<div class="campoForm">
+						<label for="nome">Nome:</label>
+						<input class="cont" type="text" name="nome" placeholder="Digite seu nome...">
+					</div>
+
+					<div class="campoForm">
+						<label for="email">Email:</label>
+						<input class="cont" type="email" name="email" placeholder="Digite seu email...">
+					</div>
+
+					<div class="mensagem">
+						<textarea class="msg" type="text" name="mensagem" placeholder="Deixe aqui a sua mensagem..."></textarea> 
+					</div>
+
+					<div class="checkbox">
+						<input class="caixa" type="checkbox" name="sub">
+						<label class="textoCaixa" for="sub">Você quer receber e-mails da Pacote Gamer?</label>
+					</div>
+
+					<input class="submit" type="submit">
+				</form>
+			</div>
+		</section>
+		
+		<footer class="social" id="social">
+			<ul>
+				<li><a href="https://www.youtube.com/channel/UCH28aye3Y8J-PKcfUmziQCg" target="_blank" title="YouTube da Pacote Gamer"><img class="iconeSocial" src="imagens/iconeYoutube.png" alt="icone Youtube"></a></li>
+				<li><a href="https://www.facebook.com/pacotegamer/" target="_blank" title="Facebook da Pacote Gamer"><img class="iconeSocial" src="imagens/iconeFacebook.png" alt="icone Facebook"></a></li>
+				<li><a href="http://www.twitter.com/pacotegamer" target="_blank" title="Twitter da Pacote Gamer"><img class="iconeSocial" src="imagens/iconeTwitter.png" alt="icone Twitter"></a></li>
+			</ul>
+		</footer>
+	<script src="pacote.js"></script>
+	</body>
+</html>
